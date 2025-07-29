@@ -2,7 +2,7 @@
 # A while script that prints "" 10 times 
 # On 9th loop print hi
 
-a=0
+a=1
 while [ $a -lt 10 ]; do
   echo "Best School"
   a=$((a + 1))

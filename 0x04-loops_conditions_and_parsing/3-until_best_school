@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # A until script that prints "" 10 times
 
-a=0
-until [ $a -eq 10 ]; do
+a=1
+until [ $a -gt 10 ]; do
    echo "Best School"
    a=$((a + 1))
 done

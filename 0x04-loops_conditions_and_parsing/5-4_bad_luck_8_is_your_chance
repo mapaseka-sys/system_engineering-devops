@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # A while scripts with elif statement
 
-a=0
+a=1
 while [ $a -le 10 ]; do
    if [ $a -eq 4 ]; then
       echo "bad luck"
