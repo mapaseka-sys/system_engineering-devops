@@ -1,0 +1,7 @@
+#!/bin/bash
+# A script that prints file names
+
+filenames=$(ls)
+for i in $filenames; do
+  echo "$i" | cut -d '-' -f2
+done
