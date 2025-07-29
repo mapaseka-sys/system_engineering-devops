@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # A while loop script that prints "" 10 times
 
 a=0
