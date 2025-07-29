@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # A while scripts with elif statement
 
 a=0

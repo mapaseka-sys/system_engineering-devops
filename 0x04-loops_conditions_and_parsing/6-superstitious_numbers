@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 # A case Script
 
 a=1
