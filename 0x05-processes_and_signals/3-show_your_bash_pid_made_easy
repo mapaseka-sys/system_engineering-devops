@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Ascript that makes listing pid easy
+
+pgrep bash -l

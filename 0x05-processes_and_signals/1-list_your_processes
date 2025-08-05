@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A script that list the detail of pid
+
+ps -auxf
