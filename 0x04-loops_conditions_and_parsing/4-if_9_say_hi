@@ -2,11 +2,14 @@
 # A while script that prints "" 10 times 
 # On 9th loop print hi
 
-a=1
-while [ $a -lt 10 ]; do
+i=1
+
+while ((i <= 10))
+do
   echo "Best School"
-  a=$((a + 1))
-  if [ $a -eq 9 ]; then
-     echo "hi"
-  fi
+  if [ $i -eq 9 ]
+  then
+      echo "Hi"
+   fi
+   ((i++))
 done
